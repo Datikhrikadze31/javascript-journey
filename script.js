@@ -1,48 +1,34 @@
-let count = 0;
-count += 1;
-count += 1;
-count += 1;
+// DAY 3  Objects
 
-console.log(count);
+// let car = {
+//   brand: "MERCEDES",
+//   price: 250000,
+//   year: 2021,
+// };
 
-// let challenge
-let age = 24;
-console.log(age);
+// console.log(car.brand);
+// console.log(car.year);
 
-// const challenge
-const name = "Dati";
-console.log(name);
+// let user = {
+//   name: "Dati",
+//   age: 24,
+// };
 
-// reassigment
-let score = 10;
+// user.age = 25;
+// user.job = "Frontend Developer";
 
-score = 20;
+// console.log(user);
 
-console.log(score);
+let car = [
+  {
+    brand: "BWM",
+    price: 20000,
+  },
+  {
+    brand: "MERCEDES",
+    price: 30000,
+  },
+];
 
-// Execution Order
-let price = 100;
-console.log(price);
-
-price = 200;
-console.log(price);
-
-const number = 5;
-{
-  console.log(number);
-}
-
-// shadowing
-let size = 30;
-
-{
-  let size = 20;
-  console.log(size);
-}
-
-// arrays, indexing , push , pop , change value
-let cars = ["BMW", "MERCEDES", "REDBULL"];
-cars.push("AUDI");
-cars.pop();
-cars[0] = "MACLAREN";
-console.log(cars);
+console.log(car[0].brand);
+console.log(car[1].price);
